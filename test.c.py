@@ -1,388 +1,337 @@
-# print("请输入密码")
-
-# password = input("请输入密码")
+# name = ["li","li2","li3"]
 #
-# print("你的密码为%s" % password)
+# print(name)
+#
+# #print(type(name))
+#
+# name2 = [name,267,['pad',5]]
+# #print(name2)
+#
+# print(name2[0][-1])
+#
+# print("hello world")
+from os import replace
+
+# my_list = ["hello world","hello chaina","hello python"]
+#
+# index = my_list.index("hello python")
+# # print(index)
+#
+# my_list[1] = 666,"开paty不带我"
+# my_list.insert(1,'oo的ye')
+# print(my_list[1])
+# print(my_list)
+# b = [1.1,2]
+# my_list = [1,2,3]
+# my_list.append(b)
+# print(my_list)
 
 
-# num = int(num)
+# a = [1,[1,3,9],2,[1,2,3]]
+# # b = del a [2][2]
+# # b = a.insert(2,6)
+# # b=a.pop(2)
+# # a.remove([1,3,9])
+# # b = a.count([1,3,9])
+# # print(b)
+# # a.clear()
+# # a.append(1)
+# # c = a.count()
+# # print(c)
+# # b = print(b)
+# b = len(a)
+# print(b)
+# a.clear()
+# b = len(a)
+# print(b)
 
-# password = input("请输入密码")
-# password = int(password)
-# print(type(password))
+# all_age = [21,25,21,23,22,20]
+# all_age.append(31)
+# all_age.extend([29,33,30])
+# all_age.pop(0)
+# all_age.pop(8)
+# a = all_age.index(31)
+# print(all_age)
+# print(a)
 
-# bool_1 = 7>6
-# bool_2 = type(bool_1)
-# print(f"7>6的结果为：{bool_1},类型是{bool_2}")
-
-# num1 = 10
-# num2 = 10
-# print(f"num和num2的结果为{num1 == num2}")
-
-# num1 = 10
-# num2 = 15
-# print(f"num1和num2不相等为{num1 != num2}")
-
-# name1 = "it"
-# name2 = "io"
-# print(f"name1 和 name2是否相等{name1 == name2}")
+# def list_while():
+#       my_list = ["wo","shi","ni","die"]
+#
+#       index = 0
+#       while index < len(my_list):
+#           element = my_list[index]
+#           print(f"列表的元素为{element}")
+#           index+=1
+#
+# list_while()
+#
+# def list_for():
+#     my_list = [1,2,3,4,5]
+#     for elemnet in my_list:
+#         print(elemnet)
 #
 #
+# list_for()
+
+
+# t1 = (1,"hello",True)
+# t2 = (1,[1,2],2,2,3)
+# t3 = tuple()
+# print(f"t1的类型是{type(t1)},t1的内容是{t1}")
+# print(f"t2的类型是{type(t2)},t2的内容是{t2}")
+# print(f"t3的类型是{type(t3)},t3的内容是{t3}")
+# t4 = (t2,)
+# index = t2.index(2)
+# print(index)
+# print(t4)
+# print(type(t4))
+# num = t2.count(2)
+# print(num)
 #
-# num1 = 10
-# num2 = 15
-# print(f"10>=15为{num1>num2}")
-# print(f"10<=15为{num1<num2}
-
-# age = 10
-# print(f"我已经{age}岁了")
-# if age >= 18:
-#     print("我成年了")
-#     print("时间过的真快")
+# num1 = len(t2)
+# print(num1)
+# a = 0
+# while a < len(t2):
+#     print(t2[a])
+#     a+=1
+# for a in t2:
+#     print(a)
+# t2[1][1] = 3
+# print(t2)
+# name = ("周杰伦")
+# age = (11)
+# favourite = (["football","music"])
+# yuanzu = (name,age,favourite)
+# print(yuanzu)
 #
-# print("我该上大学")
-# print("aodjpao")
-# if age <18:
-#     print("未成年")
-
-# if 7>3:
-    # print("niubi")
-
-# age = int(input(f"""
-# 欢迎来到游乐园，儿童免费，成人收费。
-# 请输入你的年龄:"""))
-# if age >= 18:
-#     print("交钱")
+# index = yuanzu.index(age)
+# print(index)
 #
-# # if age < 18:
-# else:
-#     print("随便玩不交钱")
-# print("祝您游玩愉快")
-
-# print("欢迎来到游乐园")
-# height = int(input("请输入你的身高"))
-# huiyuan = input(f"有无会员？")
-# age = int(input("年龄为："))
-# if height < 150:
-#     print("随便玩小矮子")
-# elif huiyuan == "有":
-#     print("玩去吧富哥")
-# elif age <= 18:
-#     print("玩去吧小屁孩")
-# else:
-#     print("给钱，10块")
-
-# if int(input("请输入你的身高（cm）：")) < 120:
-#     print("进去吧矮子")
-# elif int(input("请输入你的vip：")) > 5:
-#     print("进去吧富哥")
-# else:
-#     print("给钱")
-# print("祝您游玩愉快")
-
-# really_num = 5
-# if int(input("请输入第一次猜想的数字:")) == really_num:
-#     print("猜对了")
-# elif int(input("请输入第二次猜想的数字:")) == really_num:
-#     print("猜对了")
-# elif int(input("请输入第三次猜想的数字:")) == really_num:
-#     print("猜对了")
-# else:
-#     print("菜就多练")
-# print(type(really_num))
-
-
-# print("欢迎参加高考")
-# if input("请问你之前喜欢烫头吗") != "不喜欢":
-#     print("喜欢烫头这辈子有了")
-#     if input("小伙子谈过几次恋爱啊？") != "没谈过":
-#         print("你个废物，不学习光谈恋爱了")
-#         if input("小伙你觉得满分100分你能考多少？") == "100":
-#             print("小伙有野心不错")
-#             print("进去吧")
-#         else:
-#             print("干啥啥不行，给我滚")
-#     else:
-#         print("小伙不谈恋爱未来可期")
-#         print("这几年做的不错可以进去了")
+# print(name)
 #
-# else:
-#     print("小伙不烫头未来有前途啊")
-#     print("这几年做的不错可以进去了")
+# yuanzu[2][0] = 'coding'
+# print(yuanzu)
 
-# import random
-# num = random.randint(1,10)
-# # print(num)
-# guess_num = int(input("请输入你要猜的第1次数字"))
-# if guess_num == num:
-#     print("恭喜你猜中了")
-# else:
-#     if guess_num >num:
-#         print("猜大了")
-#     else:
-#         print("猜小了")
-#     guess_num = int(input("请输入你要猜的第2次数字"))
-#     if guess_num == num:
-#         print("恭喜你猜中了")
-#     else:
-#         if guess_num > num:
-#             print("猜大了")
-#         else:
-#             print("猜小了")
-#         guess_num = int(input("请输入你要猜的第3次数字"))
-#         if guess_num == num:
-#             print("恭喜你猜中了")
-#         else:
-#             print("三次不中回家种地去吧")
-#             print(f"正确答案为{num}")
 
-# i = 1
-# while i <= 100:
-#     print(f"lbw nb{i}次!")
-#     i += 1
-
-# sum = 0
-# i = 1
-# while i <=100:
-#     sum += i
-#     i += 1
+# name = 'wo shi ni die'
+# print(name[1])
+# print(name[2])
+# print(name[3])
+# print(name[-1])
 #
-# print(sum)
+# # name1[0] = 'W'
+# num = index = name.index('ni')
+# print(name[5])
+# print(num)
+# name1 = name.replace('shi','sho')
+# print(name1)
+# my_str = 12,'s o l','m','p'
+# print(my_str)
+# print(type(my_str))
+#
+# o = [1,2]
+# print(type(o))
+# my_str = "12,'s o l','m','p'"
+#
+# o = "adawdokdlkd"
+# # print(type(o))
+# o_list = o.split('d')
+# print(o_list)
 
+# o = "awpod wada          "
+# print(o.strip(" "))
 
-# while int(input("请猜数字1-100内")) != num:
-#     elif int(input("请猜数字1-100内")) > num:
-#         print("猜大了")
-#     else:
-#         print("猜小了")
-# else int(input("请猜数字1-100内")) == num:
-#         print("猜对了")
-# if int(input("请猜数字1-100内")) == num:
-#     print("猜对了")
-# else:
-#     while int(input("请猜数字1-100内")) != num:
-#         if int(input("请猜数字1-100内")) > num:
-#             print("猜大了")
-#         else:
-#             print("猜小了")
-# import random
-# num = random.randint(1,100)
-# count = 0
-# flag = True
-# while flag:
-#     guess_num = int(input("请输入你要猜的值"))
-#     if guess_num == num:
-#         print("恭喜你猜对了")
-#         print(f"你一共猜了{count}次")
-#         flag = False
-#     else:
-#         count +=1
-#         if guess_num >num:
-#             print("猜大了")
-#         else:
-#             print("猜小了")
+# o = "adaw dokd lkd"
 
-# i = 1
-# while i <= 100:
-#     print(f"今天是第{i}天，准备表白......")
-#     j = 1
-#     while j <= 10:
-#         print(f"我送出第{j}朵玫瑰花")
-#         j += 1
-#         print("小美我喜欢你")
-#     i+=1
-# print(f"坚持到第{i - 1}天，表白成功")
-
-
-# print("hello",end="")
-# print("hello")
-# print("hello\tworld\ti\tam\tli")
-# print("Life\tis\tshot\tyou\tneed\tpython")
-
-# i = 0
-# while i <= 9:
-#     j = 1
-#     while j<= i:
-#         print(f"{i} * {j} = {i * j}",end='\t')
-#         j+=1
-#     i+=1
-#     print()
-
-
-# for x in "wo shi ni die":
-#     print(x)
-# count = 0
-# for x in "wo shi ni die":
-#     if x == "i":
-#         count+=1
+# count = o.count('a')
 # print(count)
+# len = len(o)
+# print(len)
 
-# for x in range(9):
-#     print(x)
-# for x in range(3,9):
-#     print(x)
-# for x in range(0,9,3):
-#     print(x)
-
-# for x in range(10):
-#     print("送了一个飞机")
-
+# p = o.split()
+# print(p)
+# o = 'wo niu bi'
 # count = 0
-# for x in range(1,100):
-#     if x % 2 == 0:
-#         count += 1
+# while count < len(o):
+#     print(o[count])
+#     count+=1
+#
+# for num in o:
+#     print(num)
+
+# my_str = 'wo zhen shi fule'
+# count = my_str.count("s")
 # print(count)
+# replace = my_str.replace(" ","|")
+# print(replace)
+# split = replace.split("|")
+# print(split)
+    #0 1 2 3 4
+# o = [1,2,3,4,5]
+# new_o = o[1:3:1]
+# print(new_o)
 
-# for i in range(1,101):
-#     print(f"今天第{i}天")
-#     for j in range(1,11):
-#         print(f"这是今天送的第{j}束玫瑰花")
-#     print("bb我爱你")
-# print()
-# print(f"在第{i}天bb接受了我的表白")
-
-# for i in range(1,10):
-#     for j in range(1,i+1):
-#         print(f"{j} * {i} = {i * j}", end = '\t')
-#     print()
-
-
-# for i in range(1,6):
-#     print("1")
-#     # continue
-#     # break
-#     # print('ad')
-#     for j in range(1,6):
-#         print('2')
-#         break
-#         print('3')
-#     print('4')
-
-# import random
-# yue = 10000
-# if yue:
-#     for i in range(1,21):
-#         num = random.randint(1, 10)
-#         if num>= 5:
-#             num-=1000
-#             print(f"向员工{i}号发1000元工资，账户余额还剩{num}元")
-#         else
-# else:
-#     print("工资发完了，下个月领取吧")
-
-# import random
-# yuan = 10000
-# for i in range(1,21):
-#     num = random.randint(1, 10)
-#     if 1:
-#         if yuan == 0:
-#             print("工资发完了")
-#             break
-#         elif num < 5:
-#             print(f"员工{i}号绩点为{num},不合格下一位")
-#             continue
-#         else:
-#             yuan -= 1000
-#             print(f"给{i}号发1k元，工资还剩{yuan}")
-#             continue
-
-# str1 = input("请输入你要测试的单词")
-# def my_len(data):
-#     count = 0
-#     for i in data:
-#         count+=1
-#     print(f"一共{count}个字符")
-# my_len(str1)
+# a = 'mn,pn,ln,on'
+# split = a.split(",")
+# new = split[2]
+# new1 = new[::-1]
+# print(new1)
+# new_a = a[ ; -1]
 
 
-# def say_hi():
-#     print("hi")
-# say_hi()
-
-# def add(a ,b):
-#     """
-#     代入值相加
-#     :param a:相加的数字1
-#     :param b:相加的数字2
-#     :return:返回相加值
-#     """
-#     c = a+b
-#     return c
+# a = set()
+# b = {"w",1,6,True}
+# # b.add(6)
+# # b.remove(1)
+# # print(type(b))
+# # print(b.pop())
+# # print(b)
+# # b.clear()
+# # print(b)
+# a = {'p',2,1,6,3}
+# c = b.difference(a)
+# d = b.union(a)
+# b.difference_update(a)
+# print(d)
+# print(len(d))
 #
-# c = add(6,9)
-# print(c)
-# def switch(a):
-#     if a > 37.5:
-#         print("gun")
-#     else:
-#         print("jin")
-# switch(1)
-
-# def mo(a):
-#     print("a")
-# print(type(print(mo)))
-
-# def po(a):
-#     if a>18:
-#         print("aaa")
-#     else:
-#         return None
+# for i in d:
+#     print(i)
+# my_list = {'oo','dy','oo','dy',"李","宁","李","宁"}
+# kong = set()
 #
-# po(6)
-# e = 10
-# def a():
-#     print("b")
-# def b():
-#     global e
-#     e = 3
-#     print(e)
-#     print("a")
-#     a()
-#     print("c")
-# b()
-# print(e)
+# for i in my_list:
+#     kong.add(i)
+# print(kong)
+
+# my_dict1 = {"cxk":100,"lxn":0}
+# my_dict2 = {}
+# my_dict3 = dict()
+# print(my_dict1)
+# print(my_dict2)
+# print(my_dict3)
+# print(type(my_dict1))
+# print(type(my_dict2))
+# print(type(my_dict3))
+# score = my_dict1['cxk']
+# print(score)
+# cxk = {"语文":100,"数学":100,"英语":100}
+# lxn = {"语文":0,"数学":0,"英语":-1}
+# chengji = {"cxk":cxk,"lxn":lxn}
+# print(chengji)
+# print(chengji['cxk']['语文'])
+# chengji['lxn']['政治']=1
+# print(chengji['lxn']['政治'])
+# # cxk.remove("语文")
+# # print(zuobifen)
+#
+# print(cxk)
+# cxk = {"语文":100,"数学":100,"英语":100}
+# keys = cxk.keys()
+# # print(keys)
+#
+# for key in keys:
+#     print(f"成绩科目为{key}",end = ' ')
+#     print(f"科目分数为{cxk[key]}")
+# for key in cxk:
+#     print(f"科目为{key},分数为{cxk[key]}",end = print())
+#
+# num = len(cxk)
+# print(num)
+
+# info_dict = {
+#     "wlh":{
+#         "部门":"科技部",
+#         "工资":3000,
+#         "级别":1
+#     },
+#     "zjl":{
+#         "部门":"市场部",
+#         "工资":5000,
+#         "级别":2
+#     },
+#     "ljj":{
+#         "部门": "市场部",
+#         "工资": 7000,
+#         "级别": 3
+#     },
+#     "zxy":{
+#         "部门": "科技部",
+#         "工资": 4000,
+#         "级别": 1
+#     },
+#     "ldh":{
+#         "部门":"市场部",
+#         "工资":6000,
+#         "级别":2
+#     }
+# }
+# print(f"员工信息为{info_dict}")
+# for name in info_dict:
+#     if info_dict[name]["级别"] == 1:
+#         info_dict[name]["级别"] +=1
+#         info_dict[name]["工资"] +=1000
+# print(f"员工加薪后{info_dict}")
+# my_list = [1,2,9,8,5,7,6]
+# # print(set(my_list))
+# print(sorted(my_list,reverse=True))
+
+# def a(x,y=2,z=2):
+#     print(x,y,z)
+# a(x=2)
+
+# def info(*args):
+#     print(args)
+# info("a:1",2,9)
+#
+# def infp(**kwargs):
+#     print(kwargs)
+# infp(name="xiaowang",n=1)
+# def ooy(add):
+#     num = add(1,2)
+#     print(num)
+# def ooy():
+#     return "1,2"
+# def add(ooy):
+#     return ooy(x+y)
+# add(ooy)
+# def ee(a):
+#     num = a(1,2)
+#     print(num)
+# ee(lambda x,y:x+y)
 
 
-money = 5000000
-name = None
-name = input("name:")
-def chaxun():
-    print(f"""
-    --------------余额查询-------------
-    {name}你好，你就剩{money}元了，省着点花吧""")
 
-def cunkuan(a):
-    global money
-    money += a
-    print(f"""
-    --------------存款-------------
-    {name}你好，你都有{money}元了，多花点吧""")
 
-def qukuan(a):
-    global money
-    money += a
-    print(f"""
-    --------------取款-------------
-    {name}你好，你就有{money}元了，少花点吧""")
 
-while 1:
-        print(f""""
-    -----------主菜单----------
-    {name}你好，欢迎来到银行，请选择操作:
-    查询余额输入1
-    存款输入2
-    取款输入3
-    退出输入4""")
-        xuanze = int(input("请输入你的选择"))
 
-        if xuanze == 1:
-            chaxun()
-        elif xuanze == 2:
-            cunkuan(int(input("存多少啊老弟？")))
-        elif xuanze == 3:
-            qukuan(int(input("取多少啊老弟？")))
-        else:
-          break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
